@@ -1,0 +1,130 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2e7d5; /* Светло-бежевый фон как на макете */
+    color: #8b7365; /* Коричневый цвет текста */
+}
+
+.container {
+    max-width: 400px; /* Ограничим ширину под мобильный формат */
+    margin: 0 auto;
+    background-image: url('img/paws-bg.png'); /* Фоновые лапки */
+    background-size: contain;
+    padding: 10px;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.logo img { width: 30px; }
+
+.search-bar input {
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    background-color: #d7c5b4;
+    color: #fff;
+}
+
+/* Категории */
+.top-categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.category-item {
+    text-align: center;
+    font-size: 14px;
+}
+
+.category-item img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.main-item span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Заголовок */
+.section-title {
+    text-align: center;
+    background-color: #fff;
+    color: #d7c5b4;
+    padding: 5px;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+
+/* Сетка товаров */
+.products-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-name {
+    font-size: 11px;
+    margin: 8px 0;
+}
+
+.price {
+    background-color: #e8ded1;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    border-top: 1px solid #d7c5b4;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
