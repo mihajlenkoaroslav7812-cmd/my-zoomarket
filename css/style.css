@@ -128,3 +128,18 @@ footer h3 {
     justify-content: space-around;
     font-size: 12px;
 }
+body {
+    background-image: url("Group 31 (1).png");
+    background-size: cover;
+    background-attachment: fixed; /* Чтобы фон не уезжал при прокрутке */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.small-pic {
+    width: 18px;
+}
+.Group-34.png {
+    width: 80px;  /* спробуй почати з 80px або 100px */
+    height: 80px; 
+    object-fit: contain; /* щоб картинка не деформувалася */
+}
