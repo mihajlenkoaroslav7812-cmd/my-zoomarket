@@ -129,11 +129,14 @@ footer h3 {
     font-size: 12px;
 }
 body {
-    background-image: url("Group 31 (1).png");
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-image: url("../img/Group 31 (1).png");
     background-size: cover;
-    background-attachment: fixed; /* Чтобы фон не уезжал при прокрутке */
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: -56px center; /* Вот тут мы его и двигаем! */
 }
 .small-pic {
     width: 18px;
